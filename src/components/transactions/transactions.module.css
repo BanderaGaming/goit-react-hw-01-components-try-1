@@ -1,0 +1,18 @@
+.transactions {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.title {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.transData {
+  background-color: white;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+}
