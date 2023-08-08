@@ -1,4 +1,10 @@
-import css from './transactions.module.css'
+import css from './TransactionHistory.module.css';
+import PropTypes from "prop-types";
+
+TransactionHistory.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object)
+}
+
 export function TransactionHistory({ data }) {
     return <table className={css.transactions}>
   <thead >
@@ -19,4 +25,4 @@ export function TransactionHistory({ data }) {
     })}
   </tbody>
 </table>
-}
+};
