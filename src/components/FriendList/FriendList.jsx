@@ -7,7 +7,7 @@ FriendList.propTypes ={
 }
 
 export function FriendList({ friends }) {
-    return <ul className={css.list}>
+    return <ul className={css.FriendList}>
         {friends.map((item) => {
             return <FriendListItem key={item.id} friend={item}/>
         })
