@@ -9,7 +9,7 @@ Profile.propTypes = {
   stats: PropTypes.object.isRequired,
 }
 
-export default function Profile({ username, tag, location, avatar, stats }) {
+export function Profile({ username, tag, location, avatar, stats }) {
     return <div className={css.profile}>
   <div className={css.desc}>
     <img

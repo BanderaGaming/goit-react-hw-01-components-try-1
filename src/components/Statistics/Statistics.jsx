@@ -6,7 +6,7 @@ Statistics.propTypes = {
   data: PropTypes.arrayOf(PropTypes.object)
 }
 
-export default function Statistics({ data, title }) {
+export function Statistics({ data, title }) {
   return <section className={css.stats}>
     {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.list}>
