@@ -5,7 +5,7 @@ TransactionHistory.propTypes = {
   data: PropTypes.arrayOf(PropTypes.object)
 }
 
-export function TransactionHistory({ data }) {
+export default function TransactionHistory({ data }) {
     return <table className={css.transactions}>
   <thead >
     <tr className={`${css.title} ${css.item}`}>
