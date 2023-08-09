@@ -1,7 +1,7 @@
-import { Profile } from "./profile/Profile.jsx";
-import { Statistics } from "./statistics/Statistics.jsx";
-import { FriendList } from "./friendList/FriendList.jsx";
-import { TransactionHistory } from "./transactionHistory/TransactionHistory.jsx";
+import { Profile } from "./profile/Profile";
+import { Statistics } from "./statistics/Statistics";
+import { FriendList } from "./friendList/FriendList";
+import { TransactionHistory } from "./transactionHistory/TransactionHistory";
 
 import user from "../data/user.json";
 import stats from "../data/stats.json"
